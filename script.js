@@ -4,7 +4,7 @@ const products = [
       id: 1,
       name: "Laptop HP",
       description: "Windows 11 Home in S modeIntel || N-series N100 4GB || RAM128 GB UFS15.6 || FHDIntel® || UHD Graphics",
-      price: 999,
+      price: 899,
       image: "https://www.hp.com/ca-en/shop/Html/Merch/Images/c08515025_390x286.jpg"
     },
     {
@@ -18,7 +18,7 @@ const products = [
       id: 4,
       name: "Mouse",
       description: "ZELOTES GAMING MOUSE || Colorful Mouses",
-      price: 199,
+      price: 100,
       image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9jGuiMGUpJHAOytKffmdfln0V_pAWSgiHTYRPTRX5hi0ghdjnZUpdLESgibmZ3AyugkwPVxWGBttw7bUURKuja8Jtda8ax9K7ogiGVga108MmLZUUg3zt"
     },
 
@@ -26,7 +26,7 @@ const products = [
         id: 3,
         name: "Keyboard",
         description: "Mechanical Keyboards || SteelSeries Apex 3 Water Resistant Gaming Keyboard.",
-        price: 199,
+        price: 220,
         image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQl1TYY_nmO3doTraLJl6plS3aUSiHll9U41ymYv88wPoiW43XijtHF86JoMm3DI1IbgquNaqxbsS9b3ICAh-uNMFGd8UoSWK75dq_Fju0AgMq-vMDKg87_KA"
       }
   ];
