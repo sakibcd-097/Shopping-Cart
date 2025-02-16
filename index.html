@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Product List Section -->
+  <div class="product-list">
+    <h2 style="color: rgb(4, 244, 220)">Sakib Online Shop</h2>
+    <div class="products-container" id="products-container">
+      <!-- Dynamic Product Display -->
+    </div>
+  </div>
+
+  <!-- Shopping Cart Section -->
+  <div class="cart">
+    <h2 style="color: rgb(21, 241, 102)">Your Cart</h2>
+    <div id="cart-items" class="cart-items">
+      <!-- Cart items will appear here -->
+    </div>
+    <div class="cart-summary">
+      <p>Total: $<span id="cart-total">0</span></p>
+      <button id="checkout-btn">Checkout</button>
+      <button id="clear-cart">Clear Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+  <footer class="footer">
+    <p>&copy; <span id="current-year"></span>Sakib. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

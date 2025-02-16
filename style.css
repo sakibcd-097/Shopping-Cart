@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+  }
+  
+  /* Product Section */
+  .product-list {
+    width: 80%;
+    margin: 30px auto;
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-item h3 {
+    margin-top: 15px;
+  }
+  
+  .product-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .add-to-cart {
+    background-color: #16a4f1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #586674;
+  }
+  
+  /* Cart Section */
+  .cart {
+    color: #e12a48;
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+  }
+  
+  .cart-items {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .cart-item p {
+    margin: 0;
+  }
+  
+  .cart-item input {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  .cart-item button {
+    background-color: red;
+    margin-left: 10px;
+  }
+  
+  .cart-item button:hover {
+    background-color: darkred;
+  }
+  
+  #checkout-btn {
+    background-color: #7761f4;
+    width: 100%;
+  }
+  
+  #clear-cart {
+    background-color: #ea3fdb;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer {
+    background-color: #2f092d;
+    color: white;
+    text-align: center; /* Centers the text horizontally */
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  
