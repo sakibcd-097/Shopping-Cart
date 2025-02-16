@@ -126,3 +126,5 @@ const products = [
 
   displayProducts();
   
+
+  
