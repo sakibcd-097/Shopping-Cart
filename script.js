@@ -72,6 +72,7 @@ const products = [
     updateCart();
   }
   
+  
 
   function updateCart() {
     cartItemsContainer.innerHTML = '';
@@ -127,4 +128,3 @@ const products = [
   displayProducts();
   
 
-  
