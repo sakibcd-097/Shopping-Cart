@@ -1,4 +1,4 @@
-// Sample product data
+
 const products = [
     {
       id: 1,
@@ -31,17 +31,17 @@ const products = [
       }
   ];
   
-  // Initialize cart
+  
   let cart = [];
   
-  // DOM Elements
+
   const productsContainer = document.getElementById('products-container');
   const cartItemsContainer = document.getElementById('cart-items');
   const cartTotal = document.getElementById('cart-total');
   const checkoutBtn = document.getElementById('checkout-btn');
   const clearCartBtn = document.getElementById('clear-cart');
   
-  // Display products dynamically
+ 
   function displayProducts() {
     productsContainer.innerHTML = '';
     products.forEach(product => {
@@ -58,7 +58,7 @@ const products = [
     });
   }
   
-  // Add product to cart
+
   function addToCart(productId) {
     const product = products.find(item => item.id === productId);
     const cartItem = cart.find(item => item.id === productId);
@@ -72,7 +72,7 @@ const products = [
     updateCart();
   }
   
-  // Update cart
+
   function updateCart() {
     cartItemsContainer.innerHTML = '';
     let total = 0;
@@ -91,7 +91,7 @@ const products = [
     cartTotal.textContent = total.toFixed(2);
   }
   
-  // Update quantity
+
   function updateQuantity(productId, newQuantity) {
     const cartItem = cart.find(item => item.id === productId);
     if (newQuantity < 1) {
@@ -102,19 +102,19 @@ const products = [
     updateCart();
   }
   
-  // Remove item from cart
+
   function removeFromCart(productId) {
     cart = cart.filter(item => item.id !== productId);
     updateCart();
   }
   
-  // Clear cart
+
   clearCartBtn.addEventListener('click', () => {
     cart = [];
     updateCart();
   });
   
-  // Checkout functionality (simple alert for now)
+
   checkoutBtn.addEventListener('click', () => {
     if (cart.length > 0) {
       alert("Proceeding to checkout");
@@ -123,6 +123,6 @@ const products = [
     }
   });
   
-  // Initial display
+
   displayProducts();
   
